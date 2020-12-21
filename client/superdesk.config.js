@@ -19,7 +19,7 @@ module.exports = function(grunt) {
         defaultRoute: '/workspace/monitoring',
 
         langOverride: {
-            en: {
+            "en-US": {
                 'ANPA Category': 'Category',
                 'ANPA CATEGORY': 'CATEGORY'
             }

@@ -65,10 +65,11 @@ HIGHCHARTS_LICENSEE_CONTACT = 'tech@sourcefabric.org'
 HIGHCHARTS_LICENSE_CUSTOMER_ID = '2'
 HIGHCHARTS_LICENSE_EXPIRY = 'Perpetual'
 
-DEFAULT_LANGUAGE = 'en'
+DEFAULT_LANGUAGE = 'en-US'
 LANGUAGES = [
     {'language': 'en', 'label': 'English', 'source': True, 'destination': True},
     {'language': 'en-GB', 'label': 'English (GB)', 'source': True, 'destination': True},
+    {'language': 'en-US', 'label': 'English (US)', 'source': True, 'destination': True},
     {'language': 'fr', 'label': 'French', 'source': True, 'destination': True},
     {'language': 'ar', 'label': 'Arabic', 'source': True, 'destination': True},
     {'language': 'de', 'label': 'German', 'source': True, 'destination': True},
