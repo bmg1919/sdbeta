@@ -3721,33 +3721,33 @@
             "replacement" : {}
         }
     },
-{
-	"_id": "topics",
-    "display_name": "Topic(s)",
-	"type": "manageable",
-	"unique_field": "qcode",
-	"selection_type": "multi selection",
-	"schema": {
-		"name": {},
-      	"qcode": {},
-      	"parent": {},
-      	"iptc_subject": {},
-      	"wikidata": {},
-      	"translations": {}
-   	},
-   	"service": {
-      	"all": 1
-   	},
-   	"init_version": 3,
-   	"items": [{
-        "name": "arts, culture, entertainment and media",
-        "qcode": "01000000",
-        "parent": "null",
-        "iptc_subject": "01000000",
-        "wikidata": "null",
-        "is_active": "true",
-        "translations": {
-            "name": {
+    {
+	    "_id": "topics",
+        "display_name": "Topic(s)",
+	    "type": "manageable",
+	    "unique_field": "qcode",
+	    "selection_type": "multi selection",
+	    "schema": {
+		    "name": {},
+      	    "qcode": {},
+      	    "parent": {},
+      	    "iptc_subject": {},
+      	    "wikidata": {},
+      	    "translations": {}
+   	    },
+   	    "service": {
+      	    "all": 1
+   	    },
+   	    "init_version": 3,
+   	    "items": [{
+            "name": "arts, culture, entertainment and media",
+            "qcode": "01000000",
+            "parent": "null",
+            "iptc_subject": "01000000",
+            "wikidata": "null",
+            "is_active": "true",
+            "translations": {
+                "name": {
                 "ar": "فنون، ثقافة وترفيه",
                 "fr": "Arts, culture, divertissement et médias",
                 "en-GB": "arts, culture, entertainment and media",
@@ -33294,7 +33294,8 @@
                 "en-US": "indigenous people"
             }
         }
-    }, {
+    },
+    {
         "name": "sales channels",
         "qcode": "20001289",
         "parent": "20000243",
