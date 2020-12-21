@@ -3724,7 +3724,7 @@
     {
 	    "_id": "topics",
         "display_name": "Topic(s)",
-	    "type": "manageable",
+	    "type": "unmanageable",
 	    "unique_field": "qcode",
 	    "selection_type": "multi selection",
 	    "schema": {
